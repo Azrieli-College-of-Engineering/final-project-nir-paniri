@@ -1,0 +1,2 @@
+# This file ensures the payloads directory is tracked by git
+# Generated payload files (.ops) should be added to .gitignore

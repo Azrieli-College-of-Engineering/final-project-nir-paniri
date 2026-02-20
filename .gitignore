@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+Attack-Tools/payloads/*.ops
+!Attack-Tools/payloads/.gitkeep
+
+# Docs - do not upload to GitHub (personal files)
+Docs/PROJECT_GUIDE.md
+Docs/FINAL_REPORT.md
+Docs/Final_Report_Word.html
+Docs/Final_Project_Report.docx
+Docs/Final_Project_Report.pdf
+Docs/REQUIREMENTS_CHECKLIST.md
+Docs/generate_report.py
+Docs/generate_pdf_report.py
+Docs/פרויקט סוף קורס (1).pdf
+Docs/תבנית - דוח סיום פרויקט (1).docx
+
+# Secrets (if any)
+.env
+*.key
+secrets.json
+
+# Logs
+*.log
+
+# Flask
+instance/
+.webassets-cache
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
